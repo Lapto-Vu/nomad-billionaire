@@ -48,7 +48,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <label htmlFor="my-drawer-3" className="drawer-overlay"></label>
         <ul className="menu p-4 overflow-y-auto w-80 bg-base-100">
           <li>
-            <a onClick={() => onClick("/about")}>공지사항</a>
+            <a>공지사항</a>
           </li>
         </ul>
       </div>
